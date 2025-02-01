@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Trabalhando com Links</h1>
+    <h2>Quais são as tags utilizadas</h2>
+    <p>
+        Para inserir um link utilizamos a tag &lt;a&gt; que significa âncora, dentro dessa tag utilizamos href. <br>
+        O resultado fica: &lt;a href="link"&gt;<br>
+         &lt;/a&gt;
+    </p>
+    <h2>HREFLANG</h2>
+    <p>
+        Para indicar o idioma principal do site que será aberto, utiliza-se a tag hreflang. <br>
+        Desse modo, a tag completa seria: &lt;a href="link" hreflang="en"&gt; <br>
+        &lt;/a&gt;
+    </p>
+    <h2>Explicando na prática</h2>
+    <p>Você pode acessar o meu perfil no <a href="https://www.linkedin.com/in/leonardo-lotti/"target="_blank">Linkedin</a> desse modo</p> 
+    <p> Para abri o mesmo site em outra aba, após o href utilizamos o comando targets="_blank"depois do link<br>
+    </p>
+    <h2>Utilizando Links internos</h2>
+    <p>Utilizamos links internos para nos movermos entre um arquivo e outro dentro do nosso servidor e diz respeito a nossa própria página. <br>
+    Voê pode acessar a segunda página desse documento clicando <a href="pag2.html"target="self" rel="next">aqui</a><br>
+    Você também pode acessar um link que está em outra pasta, desde que ao inseriro link no href consiga descrever o caminho deste documento. Por exemplo: Você pode acessar nossa <a href="notícias/pag003.html">página de notícias</a>
+</p>
+<h2>Vamos fazer um link de download</h2>
+<p>Para fazer um link de download utilizo os mesmos comandos, especificando o caminho, acrescentando o atributo "download" e exemplificando o tipo do arquivo a ser baixado com o comando "type"(text/video,zip,image)</p> <br>
+Vamos fazer um teste, clique <a href="file.Jpg" download="file.jpg" type="image/jpg">aqui </a>para baixar a imagem da minha foto de perfil do instagram <br>
+Ou se preferir pode clicar <a href="file.rar" download="file.rar" type="application/rar">aqui</a> e baixar o arquivo zip
+</body>
+</html>

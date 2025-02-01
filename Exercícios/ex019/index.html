@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+          body {
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Centraliza na horizontal */
+            align-items: center; /* Centraliza na vertical */
+            height: 100vh; /* Ocupa toda a altura da tela */
+        }
+        /* Centralizar o container e alinhar os elementos */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centraliza horizontalmente */
+            gap: 10px; /* Espaço entre as divs */
+            margin-top: 50px;
+        }
+
+        /* Estilos base das divs */
+        .box {
+            background-color: grey;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            display: flex; /* Habilita o flexbox */
+            justify-content: center; /* Centraliza o conteúdo na horizontal */
+            align-items: center; /* Centraliza o conteúdo na vertical */
+            font-size: 24px;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out; /* Suaviza a transição */
+        }
+
+        /* Pseudoclasses para efeito hover */
+        .d1:hover {
+            background-color: rgb(0, 211, 0);
+        }
+        .d2:hover {
+            background-color: yellow;
+        }
+        .d3:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box d1">1</div>
+        <div class="box d2">2</div>
+        <div class="box d3">3</div>
+    </div>
+</body>
+</html>

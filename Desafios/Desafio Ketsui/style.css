@@ -1,0 +1,10 @@
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #151326; /* Fundo secundário para contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}

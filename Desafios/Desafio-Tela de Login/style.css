@@ -1,0 +1,133 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif; /* Fonte Oswald aplicada */
+    background: #0D0B0B; /* Fundo principal (preto avermelhado) */
+    color: #F2F2F2; /* Texto em branco suave */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #151326; /* Fundo secundário para contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 {
+    color: #F2F2F2; /* Texto branco para contraste */
+    font-size: 4.5rem;
+    padding-top: 120px;
+    
+}
+.left-login > h2{
+    color:#F2F2F2;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1F1B24; /* Fundo neutro e moderno para o card */
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.6); /* Sombra mais sutil e elegante */
+}
+
+.card-login > h1 {
+    color: #F2F2F2; /* Branco suave */
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #262349; /* Fundo escuro com leve azul */
+    color: #F2F2F2; /* Texto branco */
+    font-size: 14px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra interna para profundidade */
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #F2F2F2; /* Texto branco */
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.textfield > input::placeholder {
+    color: #A5A5A5; /* Cinza claro para placeholders */
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #F2F2F2; /* Texto branco */
+    background: #A62E38; /* Vermelho forte */
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(166, 46, 56, 0.3); /* Sombra suave */
+}
+
+.btn-login:hover {
+    background: #8C202F; /* Vermelho escuro no hover */
+    transition: 0.3s;
+}
+.left-login-image{
+    width: 35vw;
+    height: 300vh;
+    margin-top: -100px;
+
+}
