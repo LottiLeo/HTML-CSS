@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição dos fundos</title>
+    <!--Comando background position define onde a imagem será alocada.-->
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+       
+    }
+        
+    div.bloco{
+      background-image: url(imagens/wallpaper002.jpg);
+      height: 200px;
+      margin:10px;
+      border: 2px solid black;
+      border-radius: 10px;
+      width: 50vw;
+      
+    }
+    #b1{
+        background-position: center center;
+        
+    }
+
+    #b2{
+        background-position: right bottom;
+    }
+    #b3{
+        background-position: left top;
+    }
+    #b4{
+        background-position: right top;
+    }
+</style>
+<body>
+    <div class="bloco" id="b1"></div>
+    <div class="bloco"id="b2"></div>
+    <div class="bloco"id="b3"></div>
+    <div class="bloco"id="b4"></div>
+</body>
+</html>
