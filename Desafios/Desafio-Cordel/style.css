@@ -2,8 +2,7 @@
     font-family: 'Comic Sans' ;
     src: url(COMIC.TTF) format('truetype');
     font-weight:normal;
-    font-style:normal;
-        
+    font-style:normal;       
 }
 
 *{
@@ -39,11 +38,34 @@ header > p > a{
 }
 a:hover{
     text-decoration: underline;
-    color: blue;}
-.texto{    
+    color: blue;
+}
+.texto, .imagem{
+    font-family: 'Comic Sans';
+    font-size: 18px;
+    line-height: 2.5em;
+    font-style: italic;
+    padding-top: 10vh;
+    padding-bottom: 10vh; 
+    padding-left: 30px;
+     
+}
+.texto{
+    
+}
+.imagem{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    
+}
+.imagem > p{
+    background-color: black;
+    width:400px
 }
 footer{
     color: white;
     text-align: center;
     background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 2px;
 }
