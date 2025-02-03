@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Comic Sans' ;
+    src: url(COMIC.TTF) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+        
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 150px;
+    
+}
+header > h1{
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgba(255, 255, 255, 0.788);
+font-size: 64px;
+padding-top: 30px;
+}
+header > p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.primeiro, .segundo, .terceiro, .quarto, .quinto{
+    width: 300px;
+    text-align: justify;
+    line-height: 2.5em;
+    font-family: 'Comic Sans';
+    font-style: italic;
+}
+.primeiro{
+    padding: 20px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 16px;   
+}
+.segundo{
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    margin:10px;
+    padding:20px;
+    height: 500px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    width: 600px;
+    font-size: 18px;
+    
+}
+ div.img {
+    background-image: url(imagens/background001.jpg);
+    height: 800px;
+    min-width: 320px;
+    max-width: 1050px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 10px;
+    position:relative;
+    
+}
+
+.quinto{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    margin:10px;
+    padding:20px;
+    height: 650px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    width: 600px;
+    font-size: 18px;
+}
+div.img2 {
+    background-image: url(imagens/background002.jpg);
+    height: 800px;
+    min-width: 320px;
+    max-width: 1050px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 10px;
+    position:relative;
+    
+}
+.terceiro{
+    padding:20px;
+    margin:10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.quarto{
+    padding:20px;
+    margin:10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
