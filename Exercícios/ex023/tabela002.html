@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+</head>
+<!--Efeito Zebrado:Tbody>tr:nth-child(odd/even/xn)-->
+<!--Caption é o título da tabela-->
+<style>
+    tbody > tr:nth-child(odd){ 
+        background-color: lightblue;
+        
+    }
+table{
+    border-collapse: collapse;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+    th, td{
+        border: 1px solid black;
+        padding:10px
+    }
+
+    th{
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .num{
+        text-align: right;
+        font-weight: bold;
+    }
+    caption{
+        background-color: gray;
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 2px;
+        font-size: 18px;
+
+    }
+   
+</style>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <!--Anatomia de tabelas grandes
+    Table
+    thead
+        tr,td,th
+    tbody
+        tr,td,th
+    tfoot
+        tr,td,th
+    --> 
+</body>
+<table>
+    <caption>Indíce populacional</caption>
+    <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>São Paulo</td>
+            <td class="num">205123569</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">4587412</td>
+        </tr>
+        <tr>
+            <td>RJ</td>
+            <td class="num">12358792</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">Total</th>
+            <td class="num">189487548</td>
+        </tr>
+    </tfoot>
+</table>
+</html>
