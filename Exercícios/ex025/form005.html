@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="imasc">
+            <label for="imasc">Masculino</label><br>
+            <input type="radio" name="Sexo" id="ifem"><label for="ifem">Feminino</label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Linguagens</legend>
+            <p>
+                
+                <input type="checkbox" name="Java" id="ija">
+                <label for="ija">Java</label> <br>
+
+          <!--INPUT antes do LABEL!-->
+                
+                <input type="checkbox" name="JavaScript" id="ijs">
+                <label for="ijs">JavaScript</label> <br>
+
+                
+                <input type="checkbox" name="python" id="ipy">
+                <label for="ipy">Python</label> <br>
+
+                
+                <input type="checkbox" name="PHP" id="iphp">
+                <label for="iphp">PHP</label>
+            
+        </fieldset>
+        <p>
+            <input type="submit" name="enviar" id="ienviar">
+            <input type="reset" name="reset" id="ireset">
+        </p>
+    </form>
+</body>
+</html>
